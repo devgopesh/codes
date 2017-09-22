@@ -37,7 +37,7 @@ void update_tree(long node, long a, long b, long i, long value){
 long query_tree(long node, long a, long b, long i, long j){
     
     if(a>j || i>b || a>b)
-        return 100005;
+        return 0;
     if(i<=a && j>=b)
         return tree[node];
     long mid=(a+b)/2;
