@@ -66,7 +66,7 @@ long query_tree(long node, long a, long b, long i, long j, long arr[], long tree
 }
 
 int main()
-{   long n,q,i,x,y,z,t,arr[100],tree[10*105],lazy[10*105],c;
+{   long n,q,i,x,y,z,t,arr[100000],tree[10*100005],lazy[10*100005],c;
 	cin>>t;
 	while(t--){
 		
