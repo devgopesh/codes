@@ -47,6 +47,7 @@ long query_tree(long node, long a, long b, long i, long j){
     return res;
 }
 
+// execution begins here
 int main()
 {   long n,q,i,x,y;
     char c;
