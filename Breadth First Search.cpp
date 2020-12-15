@@ -29,6 +29,8 @@ void bfs(int s, long x) {
     }
 }
 
+// main function
+// execution begins here
 int main() {
     long nodes ,x, y,z, k = 0;
     cin >> nodes;  
@@ -40,5 +42,5 @@ int main() {
     cin>>x;
     bfs(1,x);
     cout << levelcount[x];
-        return 0;
+    return 0;
 }
